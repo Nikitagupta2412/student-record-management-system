@@ -60,8 +60,9 @@ def delete():
             allstudents.remove(k)
             print("student record is deleted ")
             found=True
-        elif found==False:
-            print("student not found")
+            break
+    if found==False:
+        print("student not found")
     
 while True:
     print("\n","press 1 to add student")
@@ -86,7 +87,9 @@ while True:
         break
     elif choice=="6":
         print(allstudents)
+        break
     else:
         print("invalid choice")
+        break
 
     
