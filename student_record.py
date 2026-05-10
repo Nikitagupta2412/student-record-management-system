@@ -1,4 +1,4 @@
-allstudents=[]
+ allstudents=[]
 
 def addstudent():
     print("Add student")
